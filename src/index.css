@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    color: white;
+}
+h3{
+    padding-bottom: 3px;
+}
+@media screen and (max-width: 768px){
+    .footerP{
+        display: none;
+    }
+}
